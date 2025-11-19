@@ -60,7 +60,6 @@ class ProductService {
 
             const data: ProductFilterResponse = await response.json();
 
-            // Search through products for matching barcode
             if (data.data?.data) {
                 for (const product of data.data.data) {
                     for (const variant of product.variants) {

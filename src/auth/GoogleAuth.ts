@@ -1,5 +1,5 @@
 import { GoogleSignin, statusCodes, User } from '@react-native-google-signin/google-signin';
-import { WEB_CLIENT_ID } from './firebaseConfig';
+import { WEB_CLIENT_ID } from '../constants/constants';
 
 export const configureGoogle = () => {
     console.log('Configuring Google Sign-In with WEB_CLIENT_ID:', WEB_CLIENT_ID);
